@@ -21,7 +21,7 @@ services:
       - PGPORT=5432
   client:
     build:
-      dockefile: Dockerfile.dev
+      dockerfile: Dockerfile.dev
       context: ./client
     volumes:
       - /app/node_modules
